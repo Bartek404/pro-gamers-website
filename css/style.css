@@ -117,7 +117,7 @@ header .hero-img {
   background-image: url("../img/hero-small.jpg");
   background-position: center;
   background-size: cover;
-  background-attachment: fixed;
+  background-attachment: scroll;
   z-index: 0;
 }
 header .hero-shadow {
@@ -255,7 +255,7 @@ header .fa-chevron-down {
 .team {
   position: relative;
   background-image: url("../img/team/team-room2.jpg");
-  background-attachment: fixed;
+  background-attachment: scroll;
   background-size: cover;
   z-index: 0;
 }
@@ -387,6 +387,7 @@ header .fa-chevron-down {
   }
   .aboutus-hero {
     background-image: url("../img/hero2-big.jpg");
+    background-attachment: fixed;
   }
   .prices .price-info {
     font-size: 18px;
@@ -395,5 +396,6 @@ header .fa-chevron-down {
 @media (min-width: 1200px) {
   header .hero-img {
     background-image: url("../img/hero-big.jpg");
+    background-attachment: fixed;
   }
 }/*# sourceMappingURL=style.css.map */
